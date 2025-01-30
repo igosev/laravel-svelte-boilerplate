@@ -12,7 +12,7 @@
 
 ## Install
 ```shell
-git clone https://github.com/igosev/laravel_svelte_boilerplate laravel_svelte
+git clone https://github.com/igosev/laravel-svelte-boilerplate laravel_svelte
 ```
 ```shell
 cd laravel_svelte
