@@ -10,15 +10,35 @@
 
 > **_NOTE:_** Implemented using tailwind's [postcss](https://tailwindcss.com/docs/installation/using-postcss) method, not laravel or vite
 
-## Instalation
-1. ```shell
-    git clone https://github.com/igosev/laravel_svelte_boilerplate laravel_svelte
-   
-2. ```shell
-    cd laravel_svelte
-   
-3. ```shell
-   composer install   
-   
-4. ```shell
-   npm install
+## Install
+```shell
+git clone https://github.com/igosev/laravel_svelte_boilerplate laravel_svelte
+```
+```shell
+cd laravel_svelte
+```
+```shell
+composer install   
+```
+```shell
+npm install   
+```   
+```shell
+mv .env.example .env 
+```
+```shell
+php artisan key:generate
+```
+```shell
+php artisan migrate
+```
+
+## Run
+```shell
+php artisan serve
+```
+```shell
+npm run dev
+```
+
+Go to [127.0.0.1:8000](http://127.0.0.1:8000/)
